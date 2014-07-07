@@ -34,7 +34,7 @@
       apn="internet"
       type="default,supl"
   />
-
+ 
   <apn carrier="Cosmote Mms"
       mcc="202"
       mnc="01"
@@ -20511,5 +20511,20 @@
       proxy="10.150.0.115"
       port="8080"
       type="default"
+  />
+  
+    <apn carrier="giffgaff"
+      apn="giffgaff.com"
+      proxy=""
+      port=""
+      user="giffgaff"
+      password=""
+      mmsc="http://mmsc.mediamessaging.co.uk:8002"
+      mmsproxy="82.132.254.1"
+      mmsport="8080"
+      authtype="1"
+      type="default,supl,mms"
+      mcc="234"
+      mnc="10"
   />
 </apns>
