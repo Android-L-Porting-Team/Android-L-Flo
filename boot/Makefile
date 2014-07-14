@@ -8,7 +8,7 @@ initrd:
 	mkdir -p ramdisk/proc
 	mkdir -p ramdisk/sys
 
-	chmod g-w ramdisk -R
+	chmod -R g-w ramdisk
 
 	abootimg-pack-initrd
 
